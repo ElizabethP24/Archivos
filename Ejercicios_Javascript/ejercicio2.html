@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EJERCICIO 2</title>
+</head>
+
+<body>
+<h1>Ingrese las medidas del div</h1>
+
+<h3>Ingrese el ancho del div</h3>
+<input type="number" min="10" max="900" id="input-ancho"  pattern="[0-9]+" >
+
+<h3>Ingrese el alto del div</h3>
+<input type="number" min="10" max="900" id="input-alto"  pattern="[0-9]+">
+
+<button onclick="cambiarMedidas()">CAMBIAR MEDIDAS</button>
+
+
+<div id="divTamano" class="box"> </div>
+
+<style>
+    .box {
+        width: 10px;
+        height: 10px;
+        border: 1px solid black;
+        background-color: darkcyan;
+    }
+</style>
+
+
+<script src= "ejercicio2.js"></script>
+</body>
+</html>

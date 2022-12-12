@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EJERCICIO 3</title>
+</head>
+
+<body>
+<h1>Ingrese sus datos personales y modifica los div</h1>
+
+<h3>Ingrese su nombre</h3>
+<input id="input-nombre" type="text" >  <div id="divnombre" class="box1"> </div>
+
+<h3>Ingrese su correo </h3>
+<input type="text" id="input-correo">  <div id="divcorreo" class="box2"> </div>
+
+<h3>Ingrese su edad</h3>
+<input type="number" min="0" max="99" id="input-edad"  pattern="[0-9]+" > <div id="divedad" class="box3"> </div>
+
+<button onclick="ingresarDatos()">INGRESAR</button>
+
+<style>
+    .box1 {
+        width: 200px;
+        height: 20px;
+           }
+</style>
+
+<style>
+    .box2 {
+        width: 80px;
+        height: 30px;
+        border: 1px solid darkslateblue;
+            }
+</style>
+
+<style>
+    .box3 {
+        width: 5px;
+        height: 20px;
+        background-color: #6ab04c;
+    }
+</style>
+
+<script src= "ejercicio3.js"></script>
+</body>
+</html>
